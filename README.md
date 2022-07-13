@@ -1,1 +1,12 @@
-# final_group_project
+# Final Group Project
+## First Segment 
+
+### Presentation 
+
+### GitHub 
+
+### Machine Learning Model 
+
+### Database
+
+
