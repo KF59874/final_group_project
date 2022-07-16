@@ -22,6 +22,8 @@ Note: The content does not yet need to be in the form of a presentation; text in
       - Takes in data in from the provisional database 
       - Outputs label(s) for input data
 
+If statistical analysis is not included as part of the current analysis, the team should add a description of how it would be included in the next phases of the project.
+
 ### Database
 1. A provisional database exists that stands in for the final database and accomplishes the following:
       - Sample data that mimics the expected final database structure or schema 
