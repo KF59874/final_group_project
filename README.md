@@ -24,7 +24,7 @@ The relationship between each dataset has been visualized using and ERD model:
 ![ERD](Sample%20Data/Yelp_ERD.png)
 
 Usind this data, we are trying to gather more information to analzye the following **Business Problem**: 
-##### *Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.*
+*Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.*
 
 ### GitHub 
 To complete the GitHub requirements for the first segment, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
