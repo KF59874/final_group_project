@@ -15,6 +15,7 @@ As a group, we have decided to analyze the customer preference for restaurants i
 
 ### Presentation/Project Information 
 For this project, we have decided to analyze customers preference for American-traditional vs. Non-American-traditional restaurants in the United States. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis. It has been reduced to focus on 1000 businesses, users, reviews, and tips:
+
 - [Business Top 1000](Sample%20Data/BusinessTop1000.csv)
 - [Reviews Top 1000](Sample%20Data/ReviewTop1000.csv)
 - [Users Top 1000](Sample%20Data/UserTop1000.csv)
