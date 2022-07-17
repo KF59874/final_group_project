@@ -25,7 +25,7 @@ The relationship between each dataset has been visualized using and ERD model:
 
 Usind this data, we are trying to gather more information to analzye the following: 
 
-###### Business Problem: Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.
+**Business Problem:** Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.
 
 ### GitHub 
 To complete the GitHub requirements for the first segment, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
@@ -35,13 +35,15 @@ To complete the GitHub requirements for the first segment, the [project page](ht
 4. 4 commits per team member
 
 ### Machine Learning Mock-Up Model 
-A provisional machine learning model has been created to help guide the analysis in the following segments. This mdoel stands in for the final machine learning model and accomplishes the following:
+A [provisional machine learning model](final_group_project/Machine_Learning_Mock_up.docx) has been created to help guide the analysis in the following segments. This mdoel stands in for the final machine learning model and accomplishes the following:
 - Dataset: Yelp Academic Dataset
 - Analysis: Machine Learning
 - Type: Supervised
 - Branch: Classification model
 - Hypothesis: Non-American traditional restaurants receive a higher star rating in the Western States. (edited) 
 - Task: Use supervised machine learning to predict whether a new non-American traditional restaurant will receive a higher rating or a lower rating within the Western States of the US.
+
+![Machine Learning Model](final_group_project/Machine_learning.png)
 
 Using the locational data included in the dataset will help with the visualizations of low vs high rated non-American traditional restaurants on the map. In the following segments, what constitutes a high rating versus a low rating will need to be defined.
 
@@ -56,6 +58,8 @@ In the event we run into the problem of class imbalances, then the following mod
 - **Cluster Centroids algorithms** for under sample
 - **SMOTEEN** for both over and under sample
 - **Balanced Random Forest Classifier** and **Easy Ensemble Classifier** for bias reduction
+
+![Models](final_group_project/Models.png)
 
 ### Database
 A provisional database has been created that stands in for the final database and accomplishes the following:
