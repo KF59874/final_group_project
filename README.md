@@ -48,9 +48,9 @@ A [provisional machine learning model](Machine_Learning_Mock_up.docx) has been c
 Using the locational data included in the dataset will help with the visualizations of low vs high rated non-American traditional restaurants on the map. In the following segments, what constitutes a high rating versus a low rating will need to be defined.
 
 The following models are to be explored:
-- **Logistic Regression model
-- **Support Vector Model
-- **Random Forest Model
+- **Logistic Regression model**
+- **Support Vector Model**
+- **Random Forest Model**
 
 In the event we run into the problem of class imbalances, then the following models can be explored to arrive at the best model that yields the best results:
 
@@ -63,5 +63,5 @@ In the event we run into the problem of class imbalances, then the following mod
 
 ### Database
 A provisional database has been created that stands in for the final database and accomplishes the following:
-- [Sample data](Sample Data) that mimics the expected final database structure or schema 
+- Sample data that mimics the expected final database structure or schema 
 - Draft [machine learning module](Machine_learning.png) is connected to the provisional database
