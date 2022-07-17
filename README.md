@@ -21,7 +21,7 @@ For this project, we have decided to analyze customers preference for American-t
 - [Tip Top 1000](Sample%20Data/TipTop1000.csv)
 
 The relationship between each dataset has been visualized using and ERD model:
-!(ERD)[Sample%20Data/Yelp_ERD.png]
+![ERD](Sample%20Data/Yelp_ERD.png)
 
 Usind this data, we are trying to gather more information to analzye the following **Business Problem**: 
 ##### *Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.*
