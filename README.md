@@ -1,13 +1,28 @@
-# Final Group Project
+# Final Group Project - First Segment
+
+Welcome to the final group project of the Data Analytics Bootcamp. This final project has been designed to showcase the skills learned in the bootcamp.
+This is the first segment of four. 
+
+Group members include (in alphabetical order):
+- Anand Bajaj
+- Katrin Freitag
+- Matthew Lao
+- Boakye Twum
+
+As a group, we have decided to analyze the effects of restaurant customers in the United States. The following portion provides more detail regarding each section that is requried for the first segment of this project.
+
 ## First Segment Requirements
 
 ### Presentation 
-1. Selected topic
-2. Reason behind the selection 
-3. Description of the source of data
-4. Questions that we wish to have answered with the data
+For this project, we have decided to analyze customers preference for American-traditional vs. Non-American-traditional restaurants in the United States. To help analyze customer preferences, we are using [Yelp Dataset](https://www.yelp.com/dataset/). This dataset has been selected as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, their star ratings, rating counts, reviews, and tips. The dataset has been cleaned, organized and exported into csv files for future analysis. The data has been reduced to focus on 1000 businesses, users, reviews, and tips:
+- [Business Top 1000](Sample Data/BusinessTop1000.csv]
+- [Reviews Top 1000](Sample Data/ReviewTop1000.csv]
+- [Users Top 1000](Sample Data/UserTop1000.csv]
+- [Tip Top 1000](Sample Data/TipTop1000.csv]
 
-Note: The content does not yet need to be in the form of a presentation; text in the README.md works as well. 
+Usind this data, we are trying to gather more information regarding the following business problem: 
+
+####### Business Problem: Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States. 
 
 ### GitHub 
 1. Main Branch includes a README.md
