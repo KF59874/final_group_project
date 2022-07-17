@@ -21,11 +21,10 @@ For this project, we have decided to analyze customers preference for American-t
 - [Tip Top 1000](Sample%20Data/TipTop1000.csv)
 
 The relationship between each dataset has been visualized using and ERD model:
-!(ERD)[Sample Data/Yelp_ERD.png]
+!(ERD)[Sample%20Data/Yelp_ERD.png]
 
-Usind this data, we are trying to gather more information to analzye the following: 
-
-**Business Problem:** Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.
+Usind this data, we are trying to gather more information to analzye the following **Business Problem**: 
+##### *Non-American-Traditional restaurants receive a higher star rating in the Western states of the United States.*
 
 ### GitHub 
 To complete the GitHub requirements for the first segment, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
