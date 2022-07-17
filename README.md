@@ -16,9 +16,9 @@ As a group, we have decided to analyze the customer preference for restaurants i
 ### Presentation/Project Information 
 For this project, we have decided to analyze customers preference for American-traditional vs. Non-American-traditional restaurants in the United States. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis. It has been reduced to focus on 1000 businesses, users, reviews, and tips:
 - [Business Top 1000](Sample%20Data/BusinessTop1000.csv)
-- [Reviews Top 1000](Sample Data/ReviewTop1000.csv)
-- [Users Top 1000](Sample Data/UserTop1000.csv)
-- [Tip Top 1000](Sample Data/TipTop1000.csv)
+- [Reviews Top 1000](Sample%20Data/ReviewTop1000.csv)
+- [Users Top 1000](Sample%20Data/UserTop1000.csv)
+- [Tip Top 1000](Sample%20Data/TipTop1000.csv)
 
 The relationship between each dataset has been visualized using and ERD model:
 !(ERD)[Sample Data/Yelp_ERD.png]
@@ -63,5 +63,5 @@ In the event we run into the problem of class imbalances, then the following mod
 
 ### Database
 A provisional database has been created that stands in for the final database and accomplishes the following:
-- Sample data that mimics the expected final database structure or schema 
+- [Sample data](Sample%20Data) that mimics the expected final database structure or schema 
 - Draft [machine learning module](Machine_learning.png) is connected to the provisional database
