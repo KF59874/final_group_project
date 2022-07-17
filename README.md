@@ -15,10 +15,10 @@ As a group, we have decided to analyze the customer preference for restaurants i
 
 ### Presentation/Project Information 
 For this project, we have decided to analyze customers preference for American-traditional vs. Non-American-traditional restaurants in the United States. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis. It has been reduced to focus on 1000 businesses, users, reviews, and tips:
-- [Business Top 1000](Sample Data/BusinessTop1000.csv]
-- [Reviews Top 1000](Sample Data/ReviewTop1000.csv]
-- [Users Top 1000](Sample Data/UserTop1000.csv]
-- [Tip Top 1000](Sample Data/TipTop1000.csv]
+- [Business Top 1000](Sample Data/BusinessTop1000.csv)
+- [Reviews Top 1000](Sample Data/ReviewTop1000.csv)
+- [Users Top 1000](Sample Data/UserTop1000.csv)
+- [Tip Top 1000](Sample Data/TipTop1000.csv) 
 
 The relationship between each dataset has been visualized using and ERD model:
 !(ERD)[final_group_project/Sample Data/Yelp_ERD.png]
@@ -48,9 +48,9 @@ A [provisional machine learning model](final_group_project/Machine_Learning_Mock
 Using the locational data included in the dataset will help with the visualizations of low vs high rated non-American traditional restaurants on the map. In the following segments, what constitutes a high rating versus a low rating will need to be defined.
 
 The following models are to be explored:
-- **Logistic Regression model
-- **Support Vector Model
-- **Random Forest Model
+- **Logistic Regression model**
+- **Support Vector Model**
+- **Random Forest Model**
 
 In the event we run into the problem of class imbalances, then the following models can be explored to arrive at the best model that yields the best results:
 
