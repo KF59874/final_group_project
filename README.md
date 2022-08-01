@@ -16,8 +16,8 @@ As a group, we have decided to anlayze whether negative reviews can give insight
 ### Project Information 
 For this project, we have decided to analyze customers preference for Italian restaurants in the State of California. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis:
 
-- [Italian Restaurants in California](resources/)
-- [Italian Restaurant Reviews](resources/)
+- [Italian Restaurants in California](resources/yelp_business_dataset_italian_restaurant_clean.csv)
+- [Italian Restaurant Reviews](resources/yelp_reviews_Italian_Restaurant_cleanimport.csv)
 
 The relationship between each dataset has been visualized using and ERD model:
 ![ERD](Sample%20Data/Yelp_ERD.png)
