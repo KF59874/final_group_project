@@ -16,8 +16,8 @@ As a group, we have decided to anlayze whether negative reviews can give insight
 ### Project Information 
 For this project, we have decided to analyze customers preference for Italian restaurants in the State of California. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis:
 
-- [Italian Restaurants in California](Sample%20Data/BusinessTop1000.csv)
-- [Italian Restaurant Reviews](Sample%20Data/ReviewTop1000.csv)
+- [Italian Restaurants in California](resources/)
+- [Italian Restaurant Reviews](resources/)
 
 The relationship between each dataset has been visualized using and ERD model:
 ![ERD](Sample%20Data/Yelp_ERD.png)
@@ -62,8 +62,8 @@ In the event we run into the problem of class imbalances, then the following mod
 ### Dashboard 
 A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to showcase the preliminary presentation requirements. It includes the following visualizations: 
 
-![20 frequently used words](Sample%20Data/Yelp_ERD.png)
+![Star rating distribution](images/stardistribution.png)
 
-![Star rating distribution](Sample%20Data/Yelp_ERD.png)
+![Text length distribution](images/textlength.png)
 
-![Text length distribution](Sample%20Data/Yelp_ERD.png)
+![20 frequently used words](images/commonwords.png)
