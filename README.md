@@ -22,7 +22,7 @@ For this project, we have decided to analyze customers preference for Italian re
 The relationship between each dataset has been visualized using and ERD model:
 ![ERD](Sample%20Data/Yelp_ERD.png)
 
-Usind this data, we are trying to gather more information to analzye the following **Business Problem**: 
+Using this data, we are trying to gather more information to analzye the following **Business Problem**: 
 *Why have Italian restaurants closed in California? Are there common words that describe closed restaurants?*
 
 ### GitHub 
