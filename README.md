@@ -68,4 +68,4 @@ A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4U
 ![20 frequently used words](images/commonwords.png)
 
 A [dashboard](https://public.tableau.com/app/profile/kf3279/viz/Book4_16596168727220/DashboardofItalianRestaurants?publish=yes) has also been created to showcase all open and closed Italian restaurants and their relationship to review count and average restaurant star ratings. 
-![Dashboard Visual](images/dashboard.png)
+![Dashboard Visual](images/dashboard.PNG)
