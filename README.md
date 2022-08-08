@@ -5,7 +5,7 @@ Each team member has been assigned a role to complete for the project:
 
 Group members and their respective roles are as follows:
 - Circle: Katrin Freitag
-- Square: Boakye Twum
+- Square: Boakye Twum-Donkor
 - Triangle: Matthew Lao
 - X: Anand Bajaj
 
