@@ -20,7 +20,7 @@ For this project, we have decided to analyze customers preference for Italian re
 - [Italian Restaurant Reviews](resources/yelp_reviews_Italian_Restaurant_cleanimport.csv)
 
 The relationship between each dataset has been visualized using and ERD model:
-![ERD](Sample%20Data/Yelp_ERD.png)
+![ERD](images/Yelp_ERD.png)
 
 Using this data, we are trying to gather more information to analzye the following **Business Problem**: 
 *Why have Italian restaurants closed in California? Are there common words that describe closed restaurants?*
@@ -34,7 +34,7 @@ To complete the GitHub requirements for the second segment, the [project page](h
 ### Database
 A database has been created using AWS and accomplishes the following:
 - The final data structure for Italian Restaurants in California
-- Draft [machine learning module](Machine_learning.png) is connected to the database
+- Draft [machine learning module](images/Machine_learning.png) is connected to the database
 
 ### Machine Learning Model
 A [machine learning model](https://drive.google.com/file/d/1_wmv60re-pS7dPL-D9dmgqGSHH5POJXZ/view?usp=sharing) has been created to analyse the reviews for Italian restaurants in California. It includes the following:
@@ -43,7 +43,6 @@ A [machine learning model](https://drive.google.com/file/d/1_wmv60re-pS7dPL-D9dm
 - Analysis: Machine Learning
 - Type: Supervised
 - Branch: Classification model
-
 
 The following models have been explored in the model:
 - Logistic Regression Model
@@ -57,10 +56,10 @@ In the event we run into the problem of class imbalances, then the following mod
 - **SMOTEEN** for both over and under sample
 - **Balanced Random Forest Classifier** and **Easy Ensemble Classifier** for bias reduction
 
-![Models](Models.png)
+![Models](images/Models.png)
 
 ### Dashboard 
-A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to showcase the preliminary presentation requirements. It includes the following visualizations: 
+A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to showcase the preliminary requirements. It includes the following visualizations: 
 
 ![Star rating distribution](images/stardistribution.png)
 
