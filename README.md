@@ -1,4 +1,4 @@
-# Final Group Project - Second Segment
+# Final Group Project - Third Segment
 
 Welcome to the final group project of the Data Analytics Bootcamp. This final project has been designed to showcase the skills learned in the bootcamp.
 Each team member has been assigned a role to complete for the project: 
