@@ -1,4 +1,4 @@
-# Final Group Project - Third Segment
+# Final Group Project 
 
 Welcome to the final group project of the Data Analytics Bootcamp. This final project has been designed to showcase the skills learned in the bootcamp.
 Each team member has been assigned a role to complete for the project: 
@@ -9,63 +9,69 @@ Group members and their respective roles are as follows:
 - Triangle: Matthew Lao
 - X: Anand Bajaj
 
-As a group, we have decided to anlayze whether negative reviews can give insight as to why Italian restaurants closed in California by looking at frequently used words in reviews.  
+## Topic Selection
 
-## Second Segment Requirements
+As a group, we have decided to anlayze the importance of **customer reviews**for businesses. We decided to focus on this topic, seeing as positive reviews, can be a great way for word-of-mouth advertisement for businesses. They can be a deciding factor as to whether customers will visit a business. Furthermore, from the business perspective, business owners can also improve their business model and increase their customer base by looking at common words that are frequently mentioned in reviews. These frequent words, can additionally be a great source for directed advertisement on social media platforms and in search enginges. 
 
-### Project Information 
-For this project, we have decided to analyze customers preference for Italian restaurants in the State of California. To help analyze customer preferences, we are using the [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, rating counts, and tips. Each business is also categorized, making it easier to filter out the required data for the analysis. The dataset has been cleaned, organized and exported into csv files for future analysis:
+### Data Source
+To help analyze customer reviews, we are using the publically available [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, and rating counts. The relationship between each dataset has been visualized using and ERD model:
+
+![ERD](images/Yelp_ERD.png)
+
+
+Each business is categorized, making it easier to filter out the required data for our analysis. The dataset has been cleaned, organized and exported into csv files for analysis. Seeing as there are millions of reviews available, we have decided to focus on a subset of **Italian Restaurants in the State of California**:
 
 - [Italian Restaurants in California](resources/yelp_business_dataset_italian_restaurant_clean.csv)
 - [Italian Restaurant Reviews](resources/yelp_reviews_Italian_Restaurant_cleanimport.csv)
 
-The relationship between each dataset has been visualized using and ERD model:
-![ERD](images/Yelp_ERD.png)
 
 Using this data, we are trying to gather more information to analzye the following **Business Problem**: 
-*Why have Italian restaurants closed in California? Are there common words that describe closed restaurants?*
+
+*How can a business utilize reviews to improve their business model and build a larger customer base?*
 
 ### GitHub 
-To complete the GitHub requirements for the second segment, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
-1. Main Branch
-2. A README.md
-3. Separate branch for each group member
+To complete the GitHub requirements for the final project, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
+1. Main Branch with all required codes and sources
+2. A README.md giving a project overview
+3. Separate branches for each group member
 
 ### Database
 A database has been created using AWS and accomplishes the following:
 - The final data structure for Italian Restaurants in California
 - Draft [machine learning module](images/Machine_learning.png) is connected to the database
 
-### Machine Learning Model
-A [machine learning model](https://drive.google.com/file/d/1_wmv60re-pS7dPL-D9dmgqGSHH5POJXZ/view?usp=sharing) has been created to analyse the reviews for Italian restaurants in California. It includes the following:
+### Exploratory Analysis
+For the machine learning portion of this project, we decided to use **Natural Language Processing** to analyze the importance of words in reviews. We looked at the sentiment values of each words, to see if there are frequently used words in positive and negative reviews. 
 
+
+### Machine Learning Model
+The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and sentiment.
+
+The Machine Learning includes the following:
 - Dataset: Yelp Academic Dataset
 - Analysis: Machine Learning
 - Type: Supervised
 - Branch: Classification model
 
-The following models have been explored in the model:
+The following models have been explored in the model (including their accuracy levels):
 - Logistic Regression Model
 - Support Vector Model
-- Random Forest Model
+- Multinomial Naive Bayes
+- Random Forest Classifier Model
+- Balanced Random Forest Classifier Model 
 
-In the event we run into the problem of class imbalances, then the following models can be explored to arrive at the best model that yields the best results:
+### Model Output
+Our machine learning model, can accurately predict whether a review is of positive or negative sentiment. Please see below an example of a positive review:
+[Model Output - Positive Review](images/pos_model_output)
 
-- **Random Over Sampler** and **SMOTE algorithms** for over sample
-- **Cluster Centroids algorithms** for under sample
-- **SMOTEEN** for both over and under sample
-- **Balanced Random Forest Classifier** and **Easy Ensemble Classifier** for bias reduction
+## Results
 
-![Models](images/Models.png)
 
-### Dashboard 
-A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to showcase the requirements. It includes the following visualizations from the machine learning portion: 
+### Presentation
+A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to summarize our findings during this project.
 
-![Star rating distribution](images/stardistribution.png)
+A [dashboard](https://public.tableau.com/app/profile/kf3279/viz/DashboardofItalianRestaurantsinCalifornia/DashboardofItalianRestauransinCalifornia?publish=yes) has  been created to showcase all open and closed Italian restaurants and their relationship to review count and average restaurant star ratings. 
 
-![Text length distribution](images/textlength.png)
-
-![20 frequently used words](images/commonwords.png)
-
-A [dashboard](https://public.tableau.com/app/profile/kf3279/viz/DashboardofItalianRestaurantsinCalifornia/DashboardofItalianRestauransinCalifornia?publish=yes) has also been created to showcase all open and closed Italian restaurants and their relationship to review count and average restaurant star ratings. 
 ![Dashboard Visual](images/dashboard.PNG)
+
+Additionally, a [story board](https://public.tableau.com/app/profile/kf3279/viz/StoryboardofItalianRestaurantsinCalifornia/ItalianRestaurantsinCA?publish=yes) has been published to look into each additional visualization separately in more detail. 
