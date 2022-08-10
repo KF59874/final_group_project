@@ -74,17 +74,17 @@ For the exploratory analysis, we decided to focus on negative reviews to see if 
 
 During the analysis, we were able to create a word map to showcase the most frequently used singular words in reviews. 
 
-[Word Map](images/...PNG)
+[Word Map](images/negative_review_wordcloud.png)
 
 A bar diagram has also been created to show the 20 most frequent expressions used in customer reviews. We decided to use a bigram seeing as this gives more valuable information in comparison to a unigram which would only give one word. 
 
-[Bigram](images/...PNG)
+[Bigram](images/negative_review_most_freq_words_bigram.png)
 
 ### Findings
 Using the Exploratory Analysis, we are able to pin point that customers highly value:
-- location
-- food 
-- service
+- Location
+- Food 
+- Service
 
 Poor customer service (*service slow* as above) was the most commonly used terms in the negative review analysis. This is an indication that businesses can focus on their service to increase their customer base. 
 
