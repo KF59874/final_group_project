@@ -97,6 +97,6 @@ The dashboard is interactive, and the user is able to review specific details re
 
 ## Future Enhancements
 ### Recommendations 
-One way to enhance this project would be to create an unsupervised machine learning approach, where the model is able to predict the positive and negative sentiment of a review based on previous reviews that have been introduced to the model, instead of in relation to the star rating. As is apparent in the [time series](images/time_series.png) in the dashboard, there has been a decline in reviews being left on Yelp since 2016. Other social media platforms also provide reviews of restaurants, however, some do not offer a star rating. This is why a supervised learning approach would benefit when analyzing reviews on other platforms. 
+One way to enhance this project would be to create an unsupervised machine learning approach, where the model is able to predict the positive and negative sentiment of a review based on previous reviews that have been introduced to the model, instead of in relation to the star rating. As is apparent in the [time series](images/reviews_per_month.png) in the dashboard, there has been a decline in reviews being left on Yelp since 2016. Other social media platforms also provide reviews of restaurants, however, some do not offer a star rating. This is why a supervised learning approach would benefit when analyzing reviews on other platforms. 
 
 Unsupervised learning models such as the **Class Train Model**, or **Topic Modelling* can be used for this. 
