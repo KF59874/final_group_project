@@ -74,11 +74,11 @@ For the exploratory analysis, we decided to focus on negative reviews to see if 
 
 During the analysis, we were able to create a word map to showcase the most frequently used singular words in reviews. 
 
-[Word Map](images/negative_review_wordcloud.png)
+![Word Map](images/negative_review_wordcloud.png)
 
 A bar diagram has also been created to show the 20 most frequent expressions used in customer reviews. We decided to use a bigram seeing as this gives more valuable information in comparison to a unigram which would only give one word. 
 
-[Bigram](images/negative_review_most_freq_words_bigram.png)
+![Bigram](images/negative_review_most_freq_words_bigram.png)
 
 ### Findings
 Using the Exploratory Analysis, we are able to pin point that customers highly value:
