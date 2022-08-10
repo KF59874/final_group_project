@@ -9,8 +9,9 @@ Group members and their respective roles are as follows:
 - Triangle: Matthew Lao
 - X: Anand Bajaj
 
-## Topic Selection
+## Topic
 
+### Topic Selection
 As a group, we have decided to anlayze the importance of **customer reviews**for businesses. We decided to focus on this topic, seeing as positive reviews, can be a great way for word-of-mouth advertisement for businesses. They can be a deciding factor as to whether customers will visit a business. Furthermore, from the business perspective, business owners can also improve their business model and increase their customer base by looking at common words that are frequently mentioned in reviews. These frequent words, can additionally be a great source for directed advertisement on social media platforms and in search enginges. 
 
 ### Data Source
@@ -29,6 +30,8 @@ Using this data, we are trying to gather more information to analzye the followi
 
 *How can a business utilize reviews to improve their business model and build a larger customer base?*
 
+## Tools 
+
 ### GitHub 
 To complete the GitHub requirements for the final project, the [project page](https://github.com/KF59874/final_group_project) includes the following: 
 1. Main Branch with all required codes and sources
@@ -40,9 +43,10 @@ A database has been created using AWS and accomplishes the following:
 - The final data structure for Italian Restaurants in California
 - Draft [machine learning module](images/Machine_learning.png) is connected to the database
 
+## Analysis & Modelling
+
 ### Exploratory Analysis
 For the machine learning portion of this project, we decided to use **Natural Language Processing** to analyze the importance of words in reviews. We looked at the sentiment values of each words, to see if there are frequently used words in positive and negative reviews. 
-
 
 ### Machine Learning Model
 The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and sentiment.
