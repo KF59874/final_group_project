@@ -12,7 +12,7 @@ Group members and their respective roles are as follows:
 ## Topic
 
 ### Topic Selection
-As a group, we have decided to anlayze the importance of **customer reviews**for businesses. We decided to focus on this topic, seeing as positive reviews, can be a great way for word-of-mouth advertisement for businesses. They can be a deciding factor as to whether customers will visit a business. Furthermore, from the business perspective, business owners can also improve their business model and increase their customer base by looking at common words that are frequently mentioned in reviews. These frequent words, can additionally be a great source for directed advertisement on social media platforms and in search enginges. 
+As a group, we have decided to anlayze the importance of **customer reviews** for businesses. We decided to focus on this topic, seeing as positive reviews, can be a great way for word-of-mouth advertisement for businesses. They can be a deciding factor as to whether customers will visit a business. Furthermore, from the business perspective, business owners can also improve their business model and increase their customer base by looking at common words that are frequently mentioned in reviews. These frequent words, can additionally be a great source for directed advertisement on social media platforms and in search enginges. 
 
 ### Data Source
 To help analyze customer reviews, we are using the publically available [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, and rating counts. The relationship between each dataset has been visualized using and ERD model:
@@ -25,9 +25,7 @@ Each business is categorized, making it easier to filter out the required data f
 - [Italian Restaurants in California](resources/yelp_business_dataset_italian_restaurant_clean.csv)
 - [Italian Restaurant Reviews](resources/yelp_reviews_Italian_Restaurant_cleanimport.csv)
 
-
 Using this data, we are trying to gather more information to analzye the following **Business Problem**: 
-
 *How can a business utilize reviews to improve their business model and build a larger customer base?*
 
 ## Tools 
@@ -41,20 +39,14 @@ To complete the GitHub requirements for the final project, the [project page](ht
 ### Database
 A database has been created using AWS and accomplishes the following:
 - The final data structure for Italian Restaurants in California
-- Draft [machine learning module](images/Machine_learning.png) is connected to the database
+- [Draft machine learning module](images/Machine_learning.png) is connected to the database
 
 ## Analysis & Modelling
 
 For the machine learning portion of this project, we decided to use **Natural Language Processing** to analyze the importance of words in reviews. We looked at the sentiment values of each words, to see if there are frequently used words in positive and negative reviews. 
 
 ### Machine Learning Model
-The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model.ipynb) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and sentiment.
-
-The Machine Learning includes the following:
-- Dataset: Yelp Academic Dataset
-- Analysis: Machine Learning
-- Type: Supervised
-- Branch: Classification model
+The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model.ipynb) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and word sentiment.
 
 The following models have been explored in the model (including their accuracy levels):
 - Logistic Regression Model - 86.5% accuracy
