@@ -57,7 +57,7 @@ The following models have been explored in the model (including their accuracy l
 
 ### Model Output
 Our machine learning model, can accurately predict whether a review is of positive or negative sentiment. Please see below an example of a positive review:
-[Model Output - Positive Review](images/pos_model_output)
+[Model Output - Positive Review](images/pos_model_output.PNG)
 
 ## Results
 
