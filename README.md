@@ -49,7 +49,7 @@ A database has been created using AWS and accomplishes the following:
 For the machine learning portion of this project, we decided to use **Natural Language Processing** to analyze the importance of words in reviews. We looked at the sentiment values of each words, to see if there are frequently used words in positive and negative reviews. 
 
 ### Machine Learning Model
-The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and sentiment.
+The exploratory analysis guided us in establishing a [machine learning model](src/yelp_ml_model.ipynb) that can predict whether a review is of positive or negative sentiment. This has been completed by looking at the relationship between star ratings and sentiment.
 
 The Machine Learning includes the following:
 - Dataset: Yelp Academic Dataset
