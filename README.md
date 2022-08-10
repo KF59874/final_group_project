@@ -45,7 +45,6 @@ A database has been created using AWS and accomplishes the following:
 
 ## Analysis & Modelling
 
-### Exploratory Analysis
 For the machine learning portion of this project, we decided to use **Natural Language Processing** to analyze the importance of words in reviews. We looked at the sentiment values of each words, to see if there are frequently used words in positive and negative reviews. 
 
 ### Machine Learning Model
@@ -58,11 +57,11 @@ The Machine Learning includes the following:
 - Branch: Classification model
 
 The following models have been explored in the model (including their accuracy levels):
-- Logistic Regression Model
-- Support Vector Model
-- Multinomial Naive Bayes
-- Random Forest Classifier Model
-- Balanced Random Forest Classifier Model 
+- Logistic Regression Model - 86.5% accuracy
+- Support Vector Model - 85.1% accuracy
+- Multinomial Naive Bayes - 88.1% accuracy
+- Random Forest Classifier Model - 82.7% accuracy 
+- Balanced Random Forest Classifier Model - 87.3% accuracy
 
 ### Model Output
 Our machine learning model, can accurately predict whether a review is of positive or negative sentiment. Please see below an example of a positive review:
@@ -70,6 +69,24 @@ Our machine learning model, can accurately predict whether a review is of positi
 
 ## Results
 
+### Exploratory Analysis
+For the exploratory analysis, we decided to focus on negative reviews to see if there are common words that appear which may indicate to a business what customers value the most. Using the frequently used words, businesses can then use this information to improve their business model and shift their focus on certain areas of the business. 
+
+During the analysis, we were able to create a word map to showcase the most frequently used singular words in reviews. 
+
+[Word Map](images/...PNG)
+
+A bar diagram has also been created to show the 20 most frequent expressions used in customer reviews. We decided to use a bigram seeing as this gives more valuable information in comparison to a unigram which would only give one word. 
+
+[Bigram](images/...PNG)
+
+### Findings
+Using the Exploratory Analysis, we are able to pin point that customers highly value:
+- location
+- food 
+- service
+
+Poor customer service (*service slow* as above) was the most commonly used terms in the negative review analysis. This is an indication that businesses can focus on their service to increase their customer base. 
 
 ### Presentation
 A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to summarize our findings during this project.
@@ -79,3 +96,15 @@ A [dashboard](https://public.tableau.com/app/profile/kf3279/viz/DashboardofItali
 ![Dashboard Visual](images/dashboard.PNG)
 
 Additionally, a [story board](https://public.tableau.com/app/profile/kf3279/viz/StoryboardofItalianRestaurantsinCalifornia/ItalianRestaurantsinCA?publish=yes) has been published to look into each additional visualization separately in more detail. 
+
+The dashboard aligns with our exploratory findings. There is a large amount of review counts in the city of Santa Barbara in comparison to the other 4 cities. The location *Santa Barbara* also appears in the most frequently used words. This aligns with the large amount of review counts. 
+
+Santa Barbara also has the largest amount of closed restaurants in comparison to the other 4 cities which are provided in this dataset. 
+
+The dashboard is interactive, and the user is able to review specific details regarding each city, such as the average star rating, open and closed restaurants in CA, and a map of all open restaurants. 
+
+## Future Enhancements
+### Recommendations 
+One way to enhance this project would be to create an unsupervised machine learning approach, where the model is able to predict the positive and negative sentiment of a review based on previous reviews that have been introduced to the model, instead of in relation to the star rating. As is apparent in the time series in the dashboard, there has been a decline in reviews being left on Yelp since 2016. Other social media platforms also provide reviews of restaurants, however, some do not offer a star rating. This is why a supervised learning approach would benefit when analyzing reviews on other platforms. 
+
+Unsupervised learning models such as the **Class Train Model**, or **Topic Modelling* can be used for this. 
