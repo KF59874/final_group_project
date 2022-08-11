@@ -81,7 +81,7 @@ Using the Exploratory Analysis, we are able to pin point that customers highly v
 Poor customer service (*service slow* as above) was the most commonly used terms in the negative review analysis. This is an indication that businesses can focus on their service to increase their customer base. 
 
 ### Presentation
-A [Google Slide](https://docs.google.com/presentation/d/1H_uyNrVu5GQB9j9eYNoXr4UrZ_MOYtHKkx7B3Pkjguo/edit?usp=sharing) has been created to summarize our findings during this project.
+A [Google Slide](Final Group Project - Yelp Dataset.pptx) has been created to summarize our findings during this project.
 
 A [dashboard](https://public.tableau.com/app/profile/kf3279/viz/DashboardofItalianRestaurantsinCalifornia/DashboardofItalianRestauransinCalifornia?publish=yes) has  been created to showcase all open and closed Italian restaurants and their relationship to review count and average restaurant star ratings. 
 
